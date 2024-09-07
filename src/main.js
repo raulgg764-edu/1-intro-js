@@ -1,19 +1,9 @@
-//Variables y constantes
+//Funciones en js
 
-let firstname = "Raul";
-
-firstname = "Eduardo";
-const lastName= "Garza";
-
-const condition = true;
-
-if(condition){
-    const lastname = "GG";
-    console.log(lastname);
+function obtenerInfo(name='Raúl', apellido=''){
+    const info = `${name} ${apellido}`;
+    return info
 }
 
-console.log("hola mundo " + firstname + ' ' + lastName);
-
-//template strings
-console.log(`Hola Mundo!!! 
-${firstname} - ${lastName}`);
+const info = obtenerInfo('Eduardo','Guillén');
+console.log(info);
