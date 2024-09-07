@@ -4,7 +4,12 @@ const carro = {
     id:1,
     nombre:'Laferrari',
     date: new Date(),
-    marca: 'Ferrari',
+    marca: {
+        id: 1,
+        nombre: 'Ferrari',
+        ubicacion:'Europa',
+        age: 100
+    },
     costo: 10000000
 }
 
