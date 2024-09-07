@@ -1,8 +1,8 @@
 //Variables y constantes
 
-let name = "Raul";
+let firstname = "Raul";
 
-name = "Eduardo";
+firstname = "Eduardo";
 const lastName= "Garza";
 
 const condition = true;
@@ -12,4 +12,8 @@ if(condition){
     console.log(lastname);
 }
 
-console.log("hola mundo " + name + ' ' + lastName);
+console.log("hola mundo " + firstname + ' ' + lastName);
+
+//template strings
+console.log(`Hola Mundo!!! 
+${firstname} - ${lastName}`);
